@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -43,6 +44,28 @@ UIGamemanager instance;
         {  
             Sprite sprites4;
         }
+        if(RightArrow)
+        {
+            Sprite sprites5;
+        }
+        Images = GetComponent<Image>().color = Color.white;
+        private void AtualizarSeta(int setaSelecionada, bool acertou)
+        {
+            if (acertou)
+            {
+                Image = GetComponent<Image>().color = Color.green;
+            }
+            else if
+                {
+                Image = GetComponent<Image>().color = Color.red;
+            }
+        }
+             Public void AtualizarTextos(int pontuação, float relogio)
+        {
+            Update.text.textodepontuação.value.pontuação = string;
+            Update.text.textodorelogio.value.relogio = string;
+        }         
+        
 
     }
 }

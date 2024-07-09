@@ -8,10 +8,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.LowLevel;
 
-public class UIGamemanager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
 #region 
-UIGamemanager instance;
+UIManager instance;
     private void Awake()
     {
         instance = this;

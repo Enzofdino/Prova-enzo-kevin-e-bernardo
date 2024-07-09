@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class GameManagaer : MonoBehaviour
 {
-    [SerializeField] GameManagaer instance;
-    [SerializeField] Rigidbody2D rigidbody2D;
+    int pontos, teclaAtual;
+    float relogio;
+    KeyCode teclas;
+
+
+    private void Start()
+    {
+       GerarSetas
+    }
+    private void Update()
+    {
+        
+    }
 }

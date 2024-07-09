@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     UIManager gamemanager;
     public void Start()
     {
-        Gerarsetas
+        UIManager.Gerarsetas();
     }
     public void Update()
     {
@@ -50,7 +50,23 @@ public class GameManager : MonoBehaviour
                array= teclas = 273 && 276
             }
             relogio < teclas;
-          UIManager.AtualizarSetas(teclas)
+           UIManager.AtualizarSetas(teclas)
+        }
+        private void ChecarTecla(KeyCode teclaPressionada)
+        {
+            teclaPressionada == teclaAtual.array.teclas
+            if (pontos.UIManager.Atualizarsetas.teclaatual(true))
+            else if(pontos.relogio.UIManager.AtualizarSeta.teclaatual(false))
+            UIManager.AtualizarTextos.pontos(relogio)
+            teclaatual
+                if(teclaAtual= teclas)
+            {
+                Gerarsetas();
+            }
+
+                    
+
+            
         }
     }
 }
